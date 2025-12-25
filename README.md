@@ -41,18 +41,18 @@ project/
   -Standarisasi Postal Code
 
 # 2️⃣ Normalisasi Database
--Normalisasi dilakukan hingga 3NF, dengan dokumentasi hasil pada file:
+Normalisasi dilakukan hingga 3NF, dengan dokumentasi hasil pada file:
 
     📘 normalisasi_superstore.xlsx
 
--Normal Form	Sheet	Keterangan
-    1NF	1NF_raw	Data mentah yang sudah atomic & konsisten
-    2NF	2NF_customer	Entitas customer
-    2NF	2NF_product	Entitas produk
-    2NF	2NF_region	Entitas wilayah
-    3NF	3NF_dim_date	Dimensi waktu
-    3NF	3NF_dim_ship_mode	Dimensi pengiriman
-    3NF	3NF_fact_sales	Tabel fakta penjualan
+Normal Form	Sheet	Keterangan
+    -1NF	1NF_raw	Data mentah yang sudah atomic & konsisten
+    -2NF	2NF_customer	Entitas customer
+    -2NF	2NF_product	Entitas produk
+    -2NF	2NF_region	Entitas wilayah
+    -3NF	3NF_dim_date	Dimensi waktu
+    -3NF	3NF_dim_ship_mode	Dimensi pengiriman
+    -3NF	3NF_fact_sales	Tabel fakta penjualan
 
 # 3️⃣ Desain Data Warehouse (Star Schema)
 
