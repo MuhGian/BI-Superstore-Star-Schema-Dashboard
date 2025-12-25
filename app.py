@@ -214,7 +214,7 @@ def save_normalization_excel(filepath, raw_df, dim_date, dim_customer, dim_produ
 # =========================================================
 # LOAD DATA
 # =========================================================
-st.title("📊 BI Superstore Star Schema Builder Dashboard")
+st.title("📊 BI Superstore Star Schema Dashboard")
 
 csv_path = "train.csv"
 raw = load_and_prepare_raw(csv_path)
@@ -479,4 +479,5 @@ st.divider()
 
 st.subheader("Preview Data (Filtered)")
 st.dataframe(df_f.head(50), use_container_width=True)
+
 
