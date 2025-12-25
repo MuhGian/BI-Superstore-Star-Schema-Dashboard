@@ -237,9 +237,6 @@ if not os.path.exists(STAR_SCHEMA_PATH):
         dim_ship_mode,
         fact_sales
     )
-    st.info("📘 File Star Schema otomatis dibuat di folder project.")
-else:
-    st.caption("📘 File Star Schema sudah tersedia di folder project.")
 
 # =========================================================
 # ✅ NEW: AUTO CREATE NORMALIZATION EXCEL (1NF–2NF–3NF)
@@ -261,9 +258,6 @@ if not os.path.exists(NORMALIZATION_PATH):
         dim_ship_mode,
         fact_sales
     )
-    st.info("📘 File normalisasi_superstore.xlsx (1NF–3NF) otomatis dibuat di folder project.")
-else:
-    st.caption("📘 File normalisasi_superstore.xlsx (1NF–3NF) sudah tersedia di folder project.")
 
 
 # =========================================================
@@ -485,3 +479,4 @@ st.divider()
 
 st.subheader("Preview Data (Filtered)")
 st.dataframe(df_f.head(50), use_container_width=True)
+
